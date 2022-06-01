@@ -1,0 +1,160 @@
+.ts__header {
+  display: flex;
+}
+
+.ts__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+.ts__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04rem;
+}
+
+.ts__header-content p {
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-text);
+
+  margin-top: 1.5rem;
+}
+
+/* Button Input  */
+
+.ts__header-content__input {
+  width: 70%;
+  margin: 4rem 0 2rem 0;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.ts__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  background: #ff4820;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 4rem;
+}
+
+.ts__header-content__input button:hover {
+  background: #ec6141;
+}
+
+.ts__header-content__people img {
+  width: 181.8px;
+  height: 38px;
+}
+
+.ts__header-content__people p {
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+}
+
+.ts__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.ts__header-image img {
+  width: 100%;
+  animation: SHM 2s ease-in-out forwards infinite;
+}
+@keyframes SHM {
+  0% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+/*********************************************** For TAB Size Screen  ***************************************/
+
+@media screen and (max-width: 1050px) {
+  .ts__header {
+    flex-direction: column;
+  }
+  .ts__header-content {
+    margin: 0 0 3rem;
+  }
+}
+
+/*********************************************** For Tablet Size Screen  ***************************************/
+
+@media screen and (max-width: 650px) {
+  .ts__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .ts__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .ts__header-content__people {
+    flex-direction: column;
+  }
+  .ts__header-content__people p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .ts__header-content__input input,
+  .ts__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/****************************************************** For Mobile Screen  ***************************************/
+
+@media screen and (max-width: 490px) {
+  .ts__header h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .ts__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .ts__header-content__input input,
+  .ts__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

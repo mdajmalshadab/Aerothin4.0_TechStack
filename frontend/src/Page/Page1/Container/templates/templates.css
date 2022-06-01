@@ -1,0 +1,214 @@
+.ts__template {
+  background: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+}
+.ts__template-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 2rem 5rem; */
+}
+.ts__template_heading {
+  margin: 30px 80px;
+}
+.ts__template_heading h1 {
+  text-align: left;
+}
+
+.ts__template_heading p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-text);
+
+  margin-top: 1.5rem;
+}
+.ts__template-preview {
+  margin: 3rem 0;
+}
+.ts__template-upper,
+.ts__template-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+}
+.ts__template-options_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ts__template-options {
+  margin-left: 100px;
+}
+.ts__template-options h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 45px;
+  letter-spacing: -0.04rem;
+}
+.ts__template-options span {
+  display: inline-block;
+}
+.ts__template-options_logo img {
+  width: 70px;
+  cursor: pointer;
+  margin: 20px;
+}
+.ts__preview-image {
+  width: 790px;
+  height: 400px;
+  border-radius: 4px;
+  background-color: #282c34;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ts__preview-image_rest {
+  width: 100%;
+}
+.ts__preview-image_add {
+  width: 40%;
+}
+.ts__template-options_dropdown {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.ts__template-download {
+  width: 400px;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  background: #ff4820;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 4rem;
+  margin: 50px 0;
+  transition: all 0.3s ease;
+}
+.ts__template-download:hover {
+  background: #db5a3d;
+}
+
+.gradient__text-2 {
+  background: linear-gradient(
+    89.97deg,
+    #ae67fa 1.84%,
+    #f49867 12.67%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1450px) {
+  .ts__preview-image {
+    width: 658.33px;
+    height: 333.33px;
+  }
+  .ts__template-options_logo {
+    justify-content: flex-start;
+  }
+  .ts__template-main {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .ts__template-upper,
+  .ts__template-lower {
+    flex-direction: column;
+  }
+  .ts__template-options {
+    margin-left: 0;
+    order: 1;
+  }
+  .ts__template-preview {
+    order: 2;
+  }
+  .ts__template-options h2 {
+    margin-top: 10px;
+  }
+  .ts__template-download {
+    width: 300px;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ts__preview-image {
+    width: 526.66px;
+    height: 266.66px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .ts__preview-image {
+    width: 438.88px;
+    height: 222.22px;
+  }
+  .ts__template-options_logo img {
+    width: 60px;
+    cursor: pointer;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ts__preview-image {
+    width: 376.2px;
+    height: 190.47px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .ts__preview-image {
+    width: 343.4px;
+    height: 173.9px;
+  }
+  .ts__template-options_logo img {
+    width: 55px;
+    cursor: pointer;
+    margin: 20px;
+  }
+}

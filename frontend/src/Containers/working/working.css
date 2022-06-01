@@ -1,0 +1,67 @@
+.ts__working {
+  display: flex;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.ts__working-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-right: 2rem;
+  z-index: -1;
+}
+.ts__working-image img {
+  margin-top: 120px;
+  width: 130%;
+}
+
+.ts__working-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.ts__working-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 1rem 0;
+}
+.ts__working-content p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1100px) {
+  .ts__working-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .ts__working-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .ts__working {
+    flex-direction: column;
+    height: 800px;
+  }
+  .ts__working-image {
+    height: 0px;
+    overflow: hidden;
+  }
+  .ts__working-content {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,39 @@
+.ts__brand-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ts__brand-logo div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ts__brand-logo div img {
+  width: 70px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ts__brand-logo div img:hover {
+  transform: scale(1.1);
+}
+
+.ts__brand {
+  display: flex;
+  flex-direction: column;
+}
+.ts__brand h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+  margin-bottom: 50px;
+}

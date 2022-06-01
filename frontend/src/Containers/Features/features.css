@@ -1,0 +1,58 @@
+.ts__features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ts__features-heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 5rem;
+}
+
+.ts__features-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+.ts__features-heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff8a71;
+  margin-top: 2rem;
+}
+
+/* Container  */
+.ts__features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*************************************************** For Tab/Tablet Screen Device *******************************************/
+
+@media screen and (max-width: 990px) {
+  .ts__features {
+    flex-direction: column;
+  }
+  .ts__features-heading {
+    margin: 0 0 2rem 0;
+  }
+}
+
+/***************************************************** For Mobile Screen Devices  *****************************************/
+
+@media screen and (max-width: 990px) {
+  .ts__features-heading h1 {
+    font-style: 28px;
+    line-height: 38px;
+  }
+}
