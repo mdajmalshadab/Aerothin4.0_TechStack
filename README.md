@@ -1,6 +1,6 @@
 # Airbus Aerothon 4.0 ([Winner](https://www.hackerearth.com/challenges/hackathon/airbus-aerothon-40-finale/))
 
-# Tech Stack Web Application (Developed by team Teck Stack and presented in Aerothon4.0)
+# Tech Stack Web Application (Developed by team Tech Stack and presented in Aerothon4.0)
 
 Tech Stack is a strong cross platform framework with modern architecture. A developer platform for building all kinds of web, mobile and desktop applications across different frameworks based on the requirement. It is a framework that help developers to kick-start their development with integrated back-end and frond-end templates. It is a fully responsive website.
 
